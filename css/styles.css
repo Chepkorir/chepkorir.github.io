@@ -1,0 +1,33 @@
+h1{
+  color: white;
+  font-size: 45px;
+  font-style: italic;
+}
+img{
+  float: left;
+  width: 900px
+  length: 700px
+}
+h2{
+/**  color: inherit;**/
+  font-size: 30px
+}
+body {
+  background-color: rgb(255, 255, 128); /* RGB value */
+  background-image: url("../images/123.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-style: oblique;
+
+}
+.intro{
+  color:blue;
+}
+.reasons{
+  color: green
+
+}
+.hobbies{
+  color: purple
+}
