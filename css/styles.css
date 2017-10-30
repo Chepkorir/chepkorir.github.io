@@ -1,33 +1,47 @@
 h1{
-  color: white;
-  font-size: 45px;
-  font-style: italic;
+  text-align: center;
+  color:black;
+  font-size: 50px;
+  font-family: cursive;
 }
 img{
-  float: left;
-  width: 900px
-  length: 700px
-}
-h2{
-/**  color: inherit;**/
-  font-size: 30px
-}
-body {
-  background-color: rgb(255, 255, 128); /* RGB value */
-  background-image: url("../images/123.jpg");
+  width: 200px;
+  length: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-style: oblique;
 
 }
-.intro{
-  color:blue;
+.jumbotron{
+  color:grey;
 }
-.reasons{
-  color: green
+.panel panel-default:{
+color: inherit;
+  font-family:monospace;
+  font-weight: bold;
+  font-size-adjust: 14;
+  text-align:left;
+  font-size: 20px;
+}
+.well{
+  color: inherit;
+    font-family:monospace;
+    font-weight: bold;
+    font-size-adjust: 14;
+    text-align: center;
+}
+h2{
+/**  color: inherit;**/
+  font-size: 30px
+font-family:fantasy;
+}
+body {}
 
-}
-.hobbies{
-  color: purple
+ul {
+  color: magenta;
+  font-size: 20px;
+  font-family: impact;
+  font-family: sans-serif;
+
 }
