@@ -4,6 +4,9 @@ h1{
   font-size: 50px;
   font-family: cursive;
 }
+.frequency{
+  width:100%;
+}
 img{
   width: 200px;
   length: 200px;
@@ -11,10 +14,23 @@ img{
   background-size: cover;
   background-position: center;
   font-style: oblique;
-
 }
-.about{
-  color:lime green;
+/*navigation*/
+.navigation{
+  text-align: center;
+  font-weight: bold;
+
+  font-size: 30px;
+  color: white;
+}
+.allicons{
+  background-color:black;
+  color:skyblue;
+  padding-right: : 30px;
+    padding-left: : 30px;
+    padding-bottom: 30px;
+}
+
 }
 .about:{
 color: inherit;
@@ -22,10 +38,13 @@ color: inherit;
   font-size-adjust: 14;
   text-align:left;
   font-size: 20px;
+
+  width: 200px;
+  float: left;
 }
 .head{
   text-align: center;
-  font-family: 'Lobster', cursive;
+  
   font-size: 40px;
 }
 
@@ -41,20 +60,23 @@ color: inherit;
 h2{
 /**  color: inherit;**/
   font-size: 30px
-font-family:fantasy;
+
 }
-body {}
+body {
+  font-family: 'Satisfy', cursive;
+}
 
 ul {
   color: magenta;
   font-size: 20px;
-  font-family: impact;
-  font-family: sans-serif;
+
+
 
 
 
 
 }
+//social media tags//
 .overlay {
     height: 0%;
     width: 100%;
@@ -102,4 +124,48 @@ ul {
     top: 15px;
     right: 35px;
   }
+}
+.fa {
+  font-size: 100px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+width: 100px;
+height: 100px
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.icons{
+  width: 100%
+  height: 100%
 }
